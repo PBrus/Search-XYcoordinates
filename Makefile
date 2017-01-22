@@ -21,4 +21,4 @@ comm.o : src/comm.c lib/comm.h
 
 .PHONY: clean
 clean :
-		rm $(OBJ)
+		rm -f $(OBJ)
