@@ -17,20 +17,21 @@ This call allows to compile the program. If you want to clean indirect object fi
 ```bash
 $ make clean
 ```
+I recommend to move `sdb_xy` program to any catalog pointed by the `$PATH` variable.
 
 ## Usage
 
 To use the program properly you need to prepare input lists. At the beginning call the program from the terminal window with the `--help` option:
 ```bash
-$ ./sdb_xy --help
+$ sdb_xy --help
 ```
 This will give you a description of all options. If you need to see the program in action immediately, please type:
 ```bash
-$ ./sdb_xy list1 list2 -h 3
+$ sdb_xy list1 list2 -h 3
 ```
 More advanced call involves the rest of options and their combinations. One of them can be:
 ```bash
-$ ./sdb_xy list1 list2 -h 3 -m 1 -r 3.1 -o 1.7 -2.9 -s 6
+$ sdb_xy list1 list2 -h 3 -m 1 -r 3.1 -o 1.7 -2.9 -s 6
 ```
 All outputs will be printed to the standard output. Usage of the `-g` option saves some information to `sdb_xy.reg` file.
 
