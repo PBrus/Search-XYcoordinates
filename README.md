@@ -20,11 +20,11 @@ $ make clean
 
 ## Usage
 
-To use the program properly you need to prepare input lists. At the beginning call the program from the terminal with the `--help` option:
+To use the program properly you need to prepare input lists. At the beginning call the program from the terminal window with the `--help` option:
 ```bash
 $ ./sdb_xy --help
 ```
-This will give you a description about all options. If you need to see the program in action immediately, please type:
+This will give you a description of all options. If you need to see the program in action immediately, please type:
 ```bash
 $ ./sdb_xy list1 list2 -h 3
 ```
