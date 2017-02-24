@@ -7,9 +7,9 @@
 
 int NumLines(FILE *file, int *longline)
 {
- 	int i = 0, j = 0;
-	char c;
-	*longline = 0;
+    int i = 0, j = 0;
+    char c;
+    *longline = 0;
 
         do
         {
@@ -27,8 +27,8 @@ int NumLines(FILE *file, int *longline)
         }
         while (c != EOF);
 
-	*longline += 1;     // for new line '\n' sign
-	rewind(file);
+    *longline += 1;     // for new line '\n' sign
+    rewind(file);
 
     return i;
 }

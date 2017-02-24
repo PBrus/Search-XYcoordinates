@@ -15,10 +15,10 @@ void Hello()
 
 void Version()
 {
-	printf("%s\n", PROG);
-	printf(" * Version: 2017-01-20\n");
-	printf(" * Licensed under the MIT license:\n   http://opensource.org/licenses/MIT\n");
-	printf(" * Copyright (c) 2017 Przemysław Bruś\n");
+    printf("%s\n", PROG);
+    printf(" * Version: 2017-02-24\n");
+    printf(" * Licensed under the MIT license:\n   http://opensource.org/licenses/MIT\n");
+    printf(" * Copyright (c) 2017 Przemysław Bruś\n");
 }
 
 void Help()

@@ -22,16 +22,16 @@ int main(int argc, char *argv[])
     if (argc < 3)
     {
         if (argc == 2)
-		{
-			if (!strcmp(argv[1], (const char *)"--help"))
-				Help();     // display the help screen
-			else if (!strcmp(argv[1], (const char *)"-v"))
-				Version();	// display the version screen
-			else
-				Hello();    // display the welcome screen
-			exit(0);
-		}
-		Hello();
+        {
+            if (!strcmp(argv[1], (const char *)"--help"))
+                Help();     // display the help screen
+            else if (!strcmp(argv[1], (const char *)"-v"))
+                Version();  // display the version screen
+            else
+                Hello();    // display the welcome screen
+            exit(0);
+        }
+        Hello();
         exit(0);
     }
     else if (argc > 16)

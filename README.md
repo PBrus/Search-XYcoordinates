@@ -1,4 +1,4 @@
-# Search-XYcoordinates [![GitHub release](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/ver20170120.svg "download")](https://github.com/PBrus/Search-XYcoordinates) ![Written in C](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/C.svg "language")
+# Search-XYcoordinates [![GitHub release](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/ver20170224.svg "download")](https://github.com/PBrus/Search-XYcoordinates) ![Written in C](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/C.svg "language")
 
 Allows to search for common stars using XY coordinates. It was written in pure C.
 
