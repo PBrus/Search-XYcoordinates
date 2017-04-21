@@ -1,4 +1,4 @@
-# Search-XYcoordinates [![GitHub release](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/ver20170224.svg "download")](https://github.com/PBrus/Search-XYcoordinates) ![Written in C](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/C.svg "language")
+# Search-xy-coordinates [![GitHub release](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/ver20170224.svg "download")](https://github.com/pbrus/search-xy-coordinates) ![Written in C](http://www.astro.uni.wroc.pl/ludzie/brus/img/github/c.svg "language")
 
 Allows to search for common stars using XY coordinates. It was written in pure C.
 
@@ -35,8 +35,8 @@ $ sdb_xy list1 list2 -h 3 -m 1 -r 3.1 -o 1.7 -2.9 -s 6
 ```
 All outputs will be printed to the standard output. Usage of the `-g` option saves some information to `sdb_xy.reg` file.
 
-I encourage to visit my website to see more detailed description of this program. The current link can be found on my [GitHub profile](https://github.com/PBrus).
+I encourage to visit my website to see more detailed description of this program. The current link can be found on my [GitHub profile](https://github.com/pbrus).
 
 ## License
 
-**Search-XYcoordinates** is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+**Search-xy-coordinates** is licensed under the [MIT license](http://opensource.org/licenses/MIT).

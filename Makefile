@@ -1,5 +1,5 @@
 # A simple makefile of the sdb_xy program written in C
-# https://github.com/PBrus/Search-XYcoordinates
+# https://github.com/pbrus/search-xy-coordinates
 
 PROG = sdb_xy
 OBJ = main.o sdbxy.o comm.o
@@ -15,7 +15,7 @@ main.o : src/main.c $(LIB)
 
 sdbxy.o : src/sdbxy.c $(LIB)
 		$(CC) -c $< -o $@ $(CFLAGS)
-		
+
 comm.o : src/comm.c lib/comm.h
 		$(CC) -c $< -o $@ $(CFLAGS)
 
